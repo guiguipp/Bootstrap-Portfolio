@@ -22,11 +22,11 @@ h3 {
     padding: 2% 0% 2% 3%;
     font-weight: bold;
 }
-p {
+p.text {
     padding: 3% 4% 1% 3%;
     margin-left: 2%;
 }
-p:last-of-type {
+p.text:last-of-type {
     padding-bottom: 10%;
 }
 
@@ -58,3 +58,31 @@ footer {
     border-color: #4aaaa5;
     background-color: #666666;
 }
+/*form*/
+form {
+    margin-left: 2.4%;
+}
+form>p {
+    color: black;
+    padding: 2% 0 2% 0;
+}
+input {
+    width: 80%;
+    font-family: 'Arial','Helvetica Neue', Helvetica, sans-serif;
+    font-size: 15px;
+    color: #777777;
+    padding: 3%;
+}
+#message {
+    height: 200px;
+}
+#button {
+    width: 20%;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 100%;
+    margin-bottom: 10%;
+}
+#button:hover {
+    background-color: #666666;
+} 
